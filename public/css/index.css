@@ -48,6 +48,8 @@ body {
 	font-family: var(--font-family);
 	color: var(--text-color);
 	background-color: var(--background-color);
+	font-size:1.125rem;
+	line-height:1.75
 }
 html {
 	overflow-y: scroll;
@@ -90,7 +92,9 @@ a[href]:active {
 }
 
 main {
-	padding: 1rem;
+	width:min(90ch,100vw - 1rem);
+	margin:5rem auto 3rem;
+	padding:1rem
 }
 main :first-child {
 	margin-top: 0;
